@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Best hotels",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
+                    Text("Business hotels",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
                     SizedBox(height: 20,),
                     Container(
                       height: 200,
@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
 
                     SizedBox(height: 20,),
 
-                    Text("Luxury hotels",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
+                    Text("Airport hotels",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
                     SizedBox(height: 20,),
                     Container(
                       height: 200,
@@ -104,6 +104,24 @@ class _HomePageState extends State<HomePage> {
                           makeItem(image: "assets/images/ic_hotel5.jpg", title: "Hotel 2"),
                           makeItem(image: "assets/images/ic_hotel1.jpg", title: "Hotel 3"),
                           makeItem(image: "assets/images/ic_hotel3.jpg", title: "Hotel 4"),
+                          makeItem(image: "assets/images/ic_hotel2.jpg", title: "Hotel 5"),
+                        ],
+                      ),
+                    ),
+
+                    SizedBox(height: 20,),
+
+                    Text("Resort hotels",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
+                    SizedBox(height: 20,),
+                    Container(
+                      height: 200,
+                      child: ListView(
+                        scrollDirection: Axis.horizontal,
+                        children: [
+                          makeItem(image: "assets/images/ic_hotel3.jpg", title: "Hotel 1"),
+                          makeItem(image: "assets/images/ic_hotel2.jpg", title: "Hotel 2"),
+                          makeItem(image: "assets/images/ic_hotel5.jpg", title: "Hotel 3"),
+                          makeItem(image: "assets/images/ic_hotel4.jpg", title: "Hotel 4"),
                           makeItem(image: "assets/images/ic_hotel2.jpg", title: "Hotel 5"),
                         ],
                       ),
